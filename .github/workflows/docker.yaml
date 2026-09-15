@@ -18,7 +18,7 @@ jobs:
       - uses: docker/metadata-action@v5
         id: meta
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/openkintai
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/mongodump-s3
           tags: |
             type=raw,value=latest
             type=sha
